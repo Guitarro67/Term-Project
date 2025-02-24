@@ -36,7 +36,6 @@ int main(void)
         else if (c >= 'M' && c <= 'O') {
             putchar('6');
         }
-        // P, R, S -> 7
         else if (c == 'P' || c == 'R' || c == 'S') {
             putchar('7');
         }
